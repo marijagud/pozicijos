@@ -1,0 +1,39 @@
+*{
+	box-sizing: border-box;
+}
+
+.conteiner{
+	width: 80%;
+	margin:0 auto;
+}
+
+div{
+	width: 200px;
+	height: 200px;
+	line-height: 170px;
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 auto;
+	font-weight: bold;
+}
+
+div div:nth-child(1){
+	background-color:#eeff55;
+}
+
+
+div div:nth-child(2){
+	background-color: lightgreen;
+}
+
+
+div div:nth-child(3){
+	background-color: red;
+}
+div div:nth-child(4){
+	background-color: orange;
+}
+div div:nth-child(5){
+	background-color: lightblue;
+}
